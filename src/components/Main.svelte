@@ -2,8 +2,8 @@
 
 </script>
 
-<main class="flex flex-col flex-1 p-4">
-    <section id="introPage" class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14">
+<main class="flex flex-col flex-1 p-4 min-h-screen">
+    <section id="introPage" class="h-full grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14">
         <div class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10">
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
                 Hi! I'm <span class="poppins text-violet-400">Pedro Bielik</span><br/>
@@ -24,11 +24,11 @@
                 <h4 class="relative z-9">Get in touch &rarr;</h4>
             </button>
         </div>
-        <div class="relative shadow-2xl grid place-items-center">
+        <div class="relative shadow-2xl grid place-items-center lg:place-items-end">
             <img
                 src={"images/profile.png"}
-                alt="Zetane Engine"
-                class="object-cover z-[2] max-h-[70vh]"
+                alt="Pedro inside a toy castel ponting forward"
+                class="object-cover z-[2] max-h-[70vh] lg:max-h-full lg:self-end"
             />
         </div>
     </section>
